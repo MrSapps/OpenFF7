@@ -12,7 +12,4 @@ before_build:
 build_script:
  - msbuild .\src\OpenFF7.sln /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
 
-artifacts:
-# path: build\*.msi
-
 test: off
