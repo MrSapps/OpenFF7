@@ -77,9 +77,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ff7\C_005E8A70.cpp" />
+    <ClCompile Include="ff7\C_005E9150.cpp" />
+    <ClCompile Include="ff7\C_005E98E0.cpp" />
+    <ClCompile Include="ff7\C_005EA8C0.cpp" />
+    <ClCompile Include="ff7\C_005EAB70.cpp" />
+    <ClCompile Include="ff7\C_005ED8F0.cpp" />
+    <ClCompile Include="ff7\C_005EE150.cpp" />
+    <ClCompile Include="ff7\C_005EE7F0.cpp" />
+    <ClCompile Include="ff7\C_005EEA50.cpp" />
+    <ClCompile Include="ff7\C_005EF1C0.cpp" />
+    <ClCompile Include="ff7\C_005EF4D0.cpp" />
+    <ClCompile Include="ff7\gameover.cpp" />
+    <ClCompile Include="ff7\is_lib.cpp" />
+    <ClCompile Include="ff7\psxdata_c.cpp" />
+    <ClCompile Include="ff7\winmain.cpp" />
     <ClCompile Include="OpenFF7.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ff7\coaster_data.h" />
+    <ClInclude Include="ff7\ff7.h" />
     <ClInclude Include="Hooks.hpp" />
     <ClInclude Include="logger.hpp" />
     <ClInclude Include="OpenFF7.hpp" />

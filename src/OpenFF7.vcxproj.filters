@@ -13,10 +13,61 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\FF7">
+      <UniqueIdentifier>{b8520f99-7845-46c6-b2d1-8eaf4ffaeb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FF7">
+      <UniqueIdentifier>{1a730c7b-81a7-4b9e-9809-198aeb0e8a70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenFF7.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005E8A70.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005E98E0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005E9150.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EA8C0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EAB70.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005ED8F0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EE7F0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EE150.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EEA50.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EF1C0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\C_005EF4D0.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\psxdata_c.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\is_lib.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\winmain.cpp">
+      <Filter>Source Files\FF7</Filter>
+    </ClCompile>
+    <ClCompile Include="ff7\gameover.cpp">
+      <Filter>Source Files\FF7</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +79,12 @@
     </ClInclude>
     <ClInclude Include="Hooks.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ff7\coaster_data.h">
+      <Filter>Header Files\FF7</Filter>
+    </ClInclude>
+    <ClInclude Include="ff7\ff7.h">
+      <Filter>Header Files\FF7</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
