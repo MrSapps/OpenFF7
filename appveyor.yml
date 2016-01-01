@@ -1,0 +1,15 @@
+version: 1.0.{build}
+
+platform: 
+ - win32
+configuration: 
+ - Debug
+ - Release
+
+before_build:
+ - call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat" %platform%
+
+build_script:
+ - msbuild .\src\OpenFF7.sln /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+test: off
